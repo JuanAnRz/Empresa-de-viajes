@@ -1,0 +1,13 @@
+[
+    {
+        "pais":"Alemania",
+        "fecha":"21 De Marzo 2025",
+        "transporte":"Avion",
+        "recorrido":"Bus",
+        "requisitos":"Pasaporte y Visa Turista",
+        "duracion":"1 semana",
+        "pasajeros":"Max. 2 Adultos y dos niños",
+        "hospedaje":"Hotel Indigo Berlin",
+        "costo":4999.99
+    }
+]

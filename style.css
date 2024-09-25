@@ -29,6 +29,7 @@
     background-color: #116b09;
 }
 body{
+
     background-image: url(./image.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -183,4 +184,10 @@ button:hover{
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+.ch{
+    border-radius: 5px;
+    accent-color: darkgreen;
+    /* bacx */
 }

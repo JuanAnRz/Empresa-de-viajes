@@ -1,0 +1,76 @@
+CREATE DATABASE JLViajes
+
+--Entramos a la base de datos y vamos a SQL(o utilizar el comando USE)
+
+CREATE TABLE Cliente(
+	CI int(8) PRIMARY KEY,
+    Nombre varChar(30),
+    Email varChar(30),
+    TEL int(9),
+    Direccion varChar(40)
+);
+
+CREATE TABLE Hotel(
+	IdHotel int(10) PRIMARY KEY,
+    Nombre varChar(30),
+    Precio int(6),
+    Categoria int(1),
+    Direccion varChar(10)
+);
+
+CREATE TABLE Destino(
+	IdDestino int(8) PRIMARY KEY,
+    Peis varChar(20),
+    Ciudad varChar(20)
+);
+
+CREATE TABLE StDeInteres(
+	Numero int(6) PRIMARY KEY,
+    Descripcion int(3)
+);
+
+--Primero se ejecuta estos comandos para crear las tablas que no necesitan de otras
+
+CREATE TABLE Tiene(
+    ID int(8),
+	Num int(10),
+    PRIMARY KEY(ID, Num),
+    FOREIGN KEY (ID) REFERENCES destino(IdDestino),
+	FOREIGN key (Num) REFERENCES stdeinteres(Numero)
+);
+CREATE TABLE Tiene(
+    ID int(8),
+	Num int(10),
+    PRIMARY KEY(ID, Num),
+    FOREIGN KEY (ID) REFERENCES destino(IdDestino),
+	FOREIGN key (Num) REFERENCES stdeinteres(Numero)
+);
+CREATE TABLE Viaje(
+	IdDes Int(8),
+    Num Int(10),
+	Tipo varChar(5),
+   	FechaSal date,
+    FechaLleg date,
+    Precio Float(5),
+    PRIMARY KEY (IdDes, Num),
+    FOREIGN KEY (IdDes) REFERENCES destino(IdDestino)
+ )
+CREATE TABLE Reserva( IDReserva Int(10),
+ 	IdDes Int(8),
+ 	Num VarChar(8),
+ 	CI Int(8), 
+	FechaReserva date, 
+	PRIMARY KEY (IDReserva, IdDes, Num), 
+	FOREIGN Key (IdDes) REFERENCES viaje(IdDes), 
+	FOREIGN key (CI) REFERENCES cliente(CI) 
+);
+
+-- INgresar datos
+
+INSERT INTO Cliente VALUES(
+	11112223,
+	"Pepito Pepitero",
+	"pepito@pepitero.com",
+	093398081,
+	"Haedo y ferreria"
+);

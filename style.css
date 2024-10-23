@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.date{
+    color: white !important;
+}
 #favi{
     margin: 15px;
     top: 0;
@@ -24,12 +27,16 @@
     transform: scale(1.20) ;
 
 }
-
+#tabal{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
 .vm:hover{
     background-color: #116b09;
 }
 body{
-
+    height: 100svh;
     background-image: url(./image.png);
     background-repeat: no-repeat;
     background-attachment: fixed;

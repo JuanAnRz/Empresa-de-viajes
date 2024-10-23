@@ -1,13 +1,42 @@
 [
     {
+    "Alemania": {
         "pais":"Alemania",
-        "fecha":"21 De Marzo 2025",
-        "transporte":"Avion",
-        "recorrido":"Bus",
-        "requisitos":"Pasaporte y Visa Turista",
-        "duracion":"1 semana",
-        "pasajeros":"Max. 2 Adultos y dos niños",
-        "hospedaje":"Hotel Indigo Berlin",
-        "costo":4999.99
+      "opcion_1": {
+        "fecha": "21 de Marzo 2025",
+        "duracion": "1 semana",
+        "pasajeros": {
+          "adultos": 2,
+          "menores": 2
+        },
+        "transporte": "Avión y bus",
+        "lugares_a_visitar": [
+          "Berlín",
+          "Potsdam",
+          "Múnich",
+          "Neuschwanstein",
+          "Núremberg"
+        ],
+        "hospedaje": "Hotel Indigo Berlin - Ku'Damm",
+        "valor": "U$D 4999.99"
+      },
+      "opcion_2": {
+        "fecha_de_salida": "23 de marzo de 2025",
+        "duracion": "2 semanas",
+        "pasajeros": {
+          "adultos": 4
+        },
+        "transporte": "Avión y bus",
+        "lugares_a_visitar": [
+          "Colonia",
+          "Núremberg",
+          "Dresde",
+          "Leipzig",
+          "Stuttgart"
+        ],
+        "hospedaje": "Hotel Excelsior Ernst",
+        "costo_total": "U$D 8599.99"
+      }
     }
+  }
 ]

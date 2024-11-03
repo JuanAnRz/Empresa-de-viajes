@@ -65,6 +65,25 @@ CREATE TABLE Reserva( IDReserva Int(10),
 	FOREIGN key (CI) REFERENCES cliente(CI) 
 );
 
+CREATE TABLE PAQ ( 
+	IDdes int(8), 
+	Num int(10), 
+	Nombre varChar(30), 
+	PRIMARY KEY(Num, IDdes), 
+	FOREIGN KEY (IDdes) REFERENCES viaje(IdDes),
+	FOREIGN KEY (Num) REFERENCES viaje(Num) 
+);
+
+CREATE TABLE Incluye(
+	Num int(10),
+    IDdes int(8),
+    idH int(10),
+    PRIMARY KEY( Num, IDdes, idH),
+    FOREIGN KEY (Num) REFERENCES paq(Num),
+    FOREIGN KEY (IDdes) REFERENCES paq(IDdes),
+    FOREIGN KEY (idH) REFERENCES hotel(IdHotel)
+);
+
 -- INgresar datos
 
 INSERT INTO Cliente VALUES(
@@ -74,3 +93,13 @@ INSERT INTO Cliente VALUES(
 	093398081,
 	"Haedo y ferreria"
 );
+
+
+-- Cambio de datos
+UPDATE cliente
+SET
+    Nombre= "Pepito Pepitero",
+    Email= "pepito@pepitero.com",
+    TEL= 093398081,
+    Direccion="Haedo y Ferreria"
+    WHERE CI= 11112223

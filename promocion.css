@@ -1,5 +1,5 @@
 .opcion{
-    height: 600px;
+    height: fit-content;
     min-width: 300px;
     width: 45%;
     margin: 20px;

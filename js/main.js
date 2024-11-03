@@ -5,7 +5,7 @@ let alemania=[];
 const al=document.getElementById("al");
 const ko=document.getElementById("ko");
 const ja=document.getElementById("ja");
-const ua=document.getElementById("ua");
+const ua=document.getElementById("ur");
 const uc=document.getElementById("uc");
 const it=document.getElementById("it");
 
@@ -18,14 +18,16 @@ ko.addEventListener("click", ()=>{
 it.addEventListener("click", ()=>{
     localStorage.setItem("viaje", "it")
 })
-ua.addEventListener("click", ()=>{
-    localStorage.setItem("viaje", "ua")
-})
+
 uc.addEventListener("click", ()=>{
     localStorage.setItem("viaje", "uc")
 })
 ja.addEventListener("click", ()=>{
     localStorage.setItem("viaje", "ja")
+})
+
+ur.addEventListener("click", ()=>{
+    localStorage.setItem("viaje", "ur")
 })
 // console.log(al.href)
 // al.addEventListener("click", ()=>{

@@ -7,7 +7,7 @@ let pasaj=[];
 
 //------------------------------------Alemania--------------------------------------
 if(viaje=="al"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");
@@ -144,7 +144,7 @@ if(viaje=="al"){
 
 //------------------------------------Pompeya--------------------------------------
 if(viaje=="it"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");
@@ -282,7 +282,7 @@ if(viaje=="it"){
 
 //------------------------------------Japon--------------------------------------
 if(viaje=="ja"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");
@@ -420,7 +420,7 @@ if(viaje=="ja"){
 
 //------------------------------------Korea--------------------------------------
 if(viaje=="ko"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");
@@ -557,7 +557,7 @@ if(viaje=="ko"){
 }
 //------------------------------------Ucrania--------------------------------------
 if(viaje=="uc"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");
@@ -694,7 +694,7 @@ if(viaje=="uc"){
 }
 //------------------------------------Uruguay--------------------------------------
 if(viaje=="ur"){
-    fetch("../js/serv.json")
+    fetch("js/serv.json")
         .then(response=> response.json())
         .then(data=>{
                 let title=document.createElement("title");

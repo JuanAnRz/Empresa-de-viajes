@@ -7,7 +7,7 @@ let lug=[];
 let pasaj=[];
 let boton= document.createElement('a');
 boton.href='promocion.html'
-boton.innerText='Atras'
+boton.innerText='Atrás'
 //------------------------------------Alemania--------------------------------------
 if(viaje=="al"){
     // fetch('https://api.github.com/repos/JuanAnRz/empresa-de-viajes/contents/js/serv.json')

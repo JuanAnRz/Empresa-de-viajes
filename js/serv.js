@@ -1,3 +1,4 @@
+import data from "./servi.js";
 let viaje= localStorage.getItem("viaje");
 let lugar=[]
 let opc1=[]
@@ -7,9 +8,9 @@ let pasaj=[];
 
 //------------------------------------Alemania--------------------------------------
 if(viaje=="al"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('https://api.github.com/repos/JuanAnRz/empresa-de-viajes/contents/js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[0].Alemania;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -139,14 +140,14 @@ if(viaje=="al"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }
 
 //------------------------------------Pompeya--------------------------------------
 if(viaje=="it"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('./js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[1].Italia;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -277,14 +278,14 @@ if(viaje=="it"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }
 
 //------------------------------------Japon--------------------------------------
 if(viaje=="ja"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('./js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[2].Japon;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -415,14 +416,14 @@ if(viaje=="ja"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }
 
 //------------------------------------Korea--------------------------------------
 if(viaje=="ko"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('./js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[3].Corea_del_Norte;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -553,13 +554,13 @@ if(viaje=="ko"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }
 //------------------------------------Ucrania--------------------------------------
 if(viaje=="uc"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('./js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[4].Ucrania;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -690,13 +691,13 @@ if(viaje=="uc"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }
 //------------------------------------Uruguay--------------------------------------
 if(viaje=="ur"){
-    fetch("js/serv.json")
-        .then(response=> response.json())
-        .then(data=>{
+    // fetch('./js/serv.json')
+    //     .then(response=> response.json())
+    //     .then(data=>{
                 let title=document.createElement("title");
                 lugar= data[5].Uruguay;
                 title.innerText= "Viajes a "+lugar.pais;
@@ -827,5 +828,5 @@ if(viaje=="ur"){
                     op2.appendChild(contrata)
                 }
             }
-        )
-}
+//         )
+// }

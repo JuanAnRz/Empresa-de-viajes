@@ -1,4 +1,4 @@
-[
+const data= [
     {
     "Alemania": {
         "pais":"Alemania",
@@ -226,7 +226,7 @@
           "Salsipuedes",
           "Museo Indígena de Tacuarembó"
         ],
-        "hospedaje": "Hotel Carlos Gardel, 4 estrellas en Tacuarembó"
+        "hospedaje": "Hotel Carlos Gardel"
       },
       "opcion_2": {
         "fecha": "12 de octubre de 2025",
@@ -242,9 +242,11 @@
           "Salsipuedes",
           "Quebrada de los Cuervos"
         ],
-        "hospedaje": "Hotel Cottage Puerto Buceo, 4 estrellas en Montevideo"
+        "hospedaje": "Hotel Cottage Puerto Buceo"
       }
     }
   }
   
 ]
+
+export default data;

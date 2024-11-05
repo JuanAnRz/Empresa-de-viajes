@@ -215,7 +215,7 @@ button:hover{
     text-align: center;
 }
 .contrata{
-    font-family:;
+    /* font-family:; */
     background-color: #3ea534;
     font-size: xx-large;
     width: 90%;
@@ -223,4 +223,13 @@ button:hover{
     border: 0;
     margin: 5%;
     border-radius: 10px ;
+}
+
+#btnIn{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 300px;    
+    border: 0;
+    background-color: transparent;
 }

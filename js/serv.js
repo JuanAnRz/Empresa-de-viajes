@@ -5,7 +5,9 @@ let opc1=[]
 let opc2=[];
 let lug=[];
 let pasaj=[];
-
+let boton= document.createElement('a');
+boton.href='promocion.html'
+boton.innerText='Atras'
 //------------------------------------Alemania--------------------------------------
 if(viaje=="al"){
     // fetch('https://api.github.com/repos/JuanAnRz/empresa-de-viajes/contents/js/serv.json')
@@ -139,6 +141,7 @@ if(viaje=="al"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
             }
 //         )
 // }
@@ -277,6 +280,8 @@ if(viaje=="it"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
+
             }
 //         )
 // }
@@ -415,6 +420,8 @@ if(viaje=="ja"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
+
             }
 //         )
 // }
@@ -553,6 +560,8 @@ if(viaje=="ko"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
+
             }
 //         )
 // }
@@ -690,6 +699,8 @@ if(viaje=="uc"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
+
             }
 //         )
 // }
@@ -827,6 +838,8 @@ if(viaje=="ur"){
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
+                main.appendChild(boton);
+
             }
 //         )
 // }

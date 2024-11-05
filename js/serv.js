@@ -79,7 +79,7 @@ if(viaje=="al"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -137,7 +137,7 @@ if(viaje=="al"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
@@ -217,7 +217,7 @@ if(viaje=="it"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -276,7 +276,7 @@ if(viaje=="it"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
@@ -357,7 +357,7 @@ if(viaje=="ja"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -416,7 +416,7 @@ if(viaje=="ja"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
@@ -497,7 +497,7 @@ if(viaje=="ko"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -556,7 +556,7 @@ if(viaje=="ko"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
@@ -636,7 +636,7 @@ if(viaje=="uc"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -695,7 +695,7 @@ if(viaje=="uc"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }
@@ -775,7 +775,7 @@ if(viaje=="ur"){
                     op1.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op1.appendChild(contrata)
                 }
@@ -834,7 +834,7 @@ if(viaje=="ur"){
                     op2.appendChild(precio)
 
                     let contrata=document.createElement("button")
-                    contrata.innerText="Contratar"
+                    contrata.innerHTML='<a class="contratar" href="./contrata.html">Contratar</a>'
                     contrata.className="contrata"
                     op2.appendChild(contrata)
                 }

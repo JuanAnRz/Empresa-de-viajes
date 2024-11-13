@@ -1,7 +1,6 @@
 let head=document.getElementById("head");
 let main=document.getElementById("main");
-// let a="hola";
-let alemania=[];
+// let alemania=[];
 const al=document.getElementById("al");
 const ko=document.getElementById("ko");
 const ja=document.getElementById("ja");

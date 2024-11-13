@@ -17,7 +17,7 @@ const data= [
           "Neuschwanstein",
           "Núremberg"
         ],
-        "hospedaje": "hospedaje Indigo Berlin - Ku'Damm",
+        "hospedaje": "Hotel Indigo Berlin - Ku'Damm, 4 Estrellas",
         "valor": "U$D 4999.99"
       },
       "opcion_2": {
@@ -35,7 +35,7 @@ const data= [
           "Leipzig",
           "Stuttgart"
         ],
-        "hospedaje": "hospedaje Excelsior Ernst",
+        "hospedaje": "Hotel Excelsior Ernst, 5 Estrellas",
         "valor": "U$D 8599.99"
       }
     }
@@ -60,7 +60,7 @@ const data= [
           "Herculano",
           "Costa Amalfitana"
         ],
-        "hospedaje": "Hotel Forum Pompei"
+        "hospedaje": "Hotel Forum Pompei, 4 Estrellas"
       },
       "opcion_2": {
         "fecha": "15 de septiembre de 2025",
@@ -78,7 +78,7 @@ const data= [
           "Anfiteatro de Pompeya",
           "Monte Vesubio"
         ],
-        "hospedaje": "Domus Michaeli B&B"
+        "hospedaje": "Domus Michaeli B&B, 5 Estrellas"
       }
     }
   },
@@ -102,7 +102,7 @@ const data= [
           "Onsen en Iizaka",
           "Región Vinícola de Fukushima"
         ],
-        "hospedaje": "Akakura Kanko Hotel"
+        "hospedaje": "Akakura Kanko Hotel, 4 Estrellas"
       },
       "opcion_2": {
         "fecha": "20 de abril de 2025",
@@ -121,7 +121,7 @@ const data= [
           "Ouchi-juku",
           "Iwaki"
         ],
-        "hospedaje": "APA HOTEL JOETSU-MYOKO-EKIMAE"
+        "hospedaje": "APA HOTEL JOETSU-MYOKO-EKIMAE, 4 Estrellas"
       }
     }
   },
@@ -146,7 +146,7 @@ const data= [
           "Kaesong",
           "Presa del Mar Oeste"
         ],
-        "hospedaje": "Hospedaje en Pyongyang"
+        "hospedaje": "Hotel Pyongyang, 3 Estrellas"
       },
       "opcion_2": {
         "fecha": "20 de abril de 2025",
@@ -166,7 +166,7 @@ const data= [
           "Monte Kumgang",
           "Gran Biblioteca del Pueblo"
         ],
-        "hospedaje": "Hospedaje en Pyongyang"
+        "hospedaje": "Hotel Pyongyang, 3 Estrellas"
       }
     }
   },
@@ -188,7 +188,7 @@ const data= [
           "Planta Nuclear de Chernobyl",
           "Pripyat"
         ],
-        "hospedaje": "Hotel InterContinental Kiev"
+        "hospedaje": "Hotel InterContinental Kiev, 4 Estrellas"
       },
       "opcion_2": {
         "fecha": "20 de septiembre de 2025",
@@ -205,7 +205,7 @@ const data= [
           "Castillo de Pidhirtsi",
           "Castillo de Zolochiv"
         ],
-        "hospedaje": "Hotel Leopolis"
+        "hospedaje": "Hotel Leopolis, 4 Estrellas"
       }
     }
   },
@@ -226,7 +226,7 @@ const data= [
           "Salsipuedes",
           "Museo Indígena de Tacuarembó"
         ],
-        "hospedaje": "Hotel Carlos Gardel"
+        "hospedaje": "Hotel Carlos Gardel, 3 Estrellas"
       },
       "opcion_2": {
         "fecha": "12 de octubre de 2025",
@@ -242,7 +242,7 @@ const data= [
           "Salsipuedes",
           "Quebrada de los Cuervos"
         ],
-        "hospedaje": "Hotel Cottage Puerto Buceo"
+        "hospedaje": "Hotel Cottage Puerto Buceo, 5 Estrellas"
       }
     }
   }
